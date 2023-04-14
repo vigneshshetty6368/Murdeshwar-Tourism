@@ -1,0 +1,140 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    /* color:white; */
+}
+
+img {
+    width: 100px;
+}
+
+.hero{
+    height:340px;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    align-items: center;
+    color:white;
+    margin-bottom:0;
+
+}
+
+#main-title {
+    margin:230px 0 0 0;
+    background: #1D3557;
+    padding:5px 10px;
+    font-size: 20px;
+    border-radius:8px;
+}
+
+
+#main-subtitle {
+    width:400px;
+    margin-top:10px;
+    background: #FCFBF1;
+    padding:5px 10px;
+    font-size: 16px;
+    color: #302C38;
+    border:1px solid #302C38;
+    border-radius:8px;
+}
+
+.activity{
+    height:340px;
+    background-color:#E6E4D3;
+}
+
+#title-activity {
+    margin-Top:0px;
+    padding:20px;
+    color:#76254B;
+    font-size: 20px;
+}
+
+.flex-activity{
+    margin-top:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:start;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.flex-activity div{
+    width: 400px;
+}
+
+.flex-activity img{
+    height: 100px;
+    border-radius:50%;
+}
+
+.flex-activity h5{
+    font-size: 15px;
+    font-style:bold;
+}
+
+.flex-activity p{
+    font-family:Arial;
+    font-size: 15px;
+
+}
+
+.guide{
+     padding:5px;
+     /* background:red; */
+}
+.card{
+    padding:15px;
+    width:400px;
+    margin:20px auto;
+    background:#B892FF;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    border-bottom:5px solid blue;
+    border-radius: 10px;
+}
+#guide-image{
+    width:160px;
+    height:200px;
+    border-radius:5px;
+}
+
+#guide-details{
+    width:200px;
+    padding:0px;
+    margin:0px;
+    margin-bottom:0px;
+}
+
+#guide-details h3{
+    margin:10px 0px 0px 0px;
+    color:Black; 
+}
+
+#guide-details p{
+    margin:20px 0px 0px 0px;
+    color:white;
+    font-style:italic;
+    text-shadow: 1px 1px 5px black;  
+}
+#guide-details h4{
+    margin:20px 0px 0px 0px;
+    color:Blue;
+    font-style:italic;
+    text-shadow: 1px 1px 0px black;    
+}
